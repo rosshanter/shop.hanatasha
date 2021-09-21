@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Продажа вязанных изделий</title>
+		<script type="text/javascript">
+		function myFunction() {
+			document.getElementByID('Одежда').innerHTML = 'Одежда в наличии:'
+			document.getElementByID('Игрушки').innerHTML = 'Игрушки в наличии:'
+			document.getElementByID('Мочалки').innerHTML = 'Мочалки в наличии:'
+		}
+	</script>
+</head>
+<body>
+	<div style="position: relative;background-color: #AFEEEE; width: 100%; height: 100px; top: -22px;">
+	<h1 style="position: relative;text-align: center; top: 15px;">Интернет магазин вязанных товаров</h1>
+	<h1 style="position: relative;text-align: center; top: -3px;">Здесь вы можете посмотреть наличие товара и также его приобрести</h1>
+	<a style="position: relative;left: 40%" href="https://vk.com/id139008192"><big>По поводу вопросов и покупок писать сюда</a>
+    </div>
+    	<div>
+
+		<ul>
+			<button style="position: relative;background-color: #AFEEEE;"><li><a href="#Игрушки">Игрушки</a></li></button>
+			<button style="position: relative;background-color: #AFEEEE;"><li><a href="#Одежда">Одежда</a></li></button>
+			<button style="position: relative;background-color: #AFEEEE;"><li><a href="#Мочалки">Мочалки</a></li></button>
+		</ul>
+		<hr>
+
+	</div>
+    <section>
+    <p id="Игрушки"></p>
+	<button onclick="myFunction()">Игрушки в наличии:</button>
+    <div>
+	<h2 style="position: relative;text-align: center;">Игрушки в наличии:</h2>
+	<hr>
+	<p style="position: relative;text-align: center;"><big>Собака - 1.000руб. </p>
+	<img style="position: relative;width: 405px;height: 540px; left: 38%" src="1.jpg">
+	<br>
+	<hr>
+	<p style="position: relative;text-align: center;"><big>Обезьяна - 1.100руб. </p>
+	<img style="position: relative;width: 405px;height: 540px; left: 38%" src="2.jpg">
+	<hr>
+	</div>
+	</section>
+	<section>
+	<p id="Одежда"></p>
+	<button onclick="myFunction()">Одежда в наличии:</button>
+	<div>
+	<h2 style="position: relative;text-align: center;">Одежда в наличии:</h2>
+	<hr>
+	<p style="position: relative;text-align: center;"><big>Варежки - 596руб. </p>
+	<img style="position: relative;width: 640px;height: 480px; left: 33%" src="3.jpg">
+	<br>
+	<hr>
+	<p style="position: relative;text-align: center;"><big>Детские тапочки - 1.259руб. </p>
+	<img style="position: relative;width: 640px;height: 480px; left: 33%" src="4.jpg">
+	<hr>
+	<p style="position: relative;text-align: center;"><big>Шаль - 1.500руб. </p>
+	<img style="position: relative;width: 640px;height: 480px; left: 33%" src="6.jpg">
+	<hr>
+	</div>
+	</section>
+	<section>
+	<p id="Мочалки"></p>
+	<button onclick="myFunction()">Мочалки в наличии:</button>
+	<div>
+	<h2 style="position: relative;text-align: center;">Мочалки в наличии:</h2>
+	<hr>
+	<p style="position: relative;text-align: center;">Мочалка-варежка - 200руб. </p>
+	<p style="position: relative;text-align: center;">Мочалка обычная - 100руб. </p>
+	<p style="position: relative;text-align: center;">Маленькая мочалка - 80руб. </p>
+	<img style="position: relative;width: 640px;height: 480px; left: 33%" src="5.jpg">
+	<hr>
+	</div>
+	</section>
+	</div>
+</body>
+</html>
